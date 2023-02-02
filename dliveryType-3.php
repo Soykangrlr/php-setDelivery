@@ -2,7 +2,7 @@
 $data = array(
   "deliverytype"=> 3,
   "sender"=> "METRO ECZANESİ",
-  "referenceNo"=>8592561,
+
   "SenderTaxpayerId"=> "",
   "description"=> "ÖZAY ÖZGÜDEN KEFKEN ECZANESİ",
   "senderAuthority"=> "METRO ECZANESİ",
@@ -150,3 +150,4 @@ return $response;
     print_r(json_decode( sendeo($data))) ;
 
 ?>
+ds
